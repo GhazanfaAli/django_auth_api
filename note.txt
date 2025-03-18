@@ -1,0 +1,8 @@
+
+https://pypi.org/project/django-cors-headers/
+https://docs.djangoproject.com/en/5.1/topics/auth/customizing/#a-full-example
+https://django-rest-framework-simplejwt.readthedocs.io/en/latest/getting_started.html
+https://django-rest-framework-simplejwt.readthedocs.io/en/latest/creating_tokens_manually.html
+https://github.com/jpadilla/django-dotenv
+
+pip3 install django-allauth dj-rest-auth google-auth oauthlib requests
