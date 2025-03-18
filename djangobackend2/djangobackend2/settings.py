@@ -227,6 +227,7 @@ CORS_ALLOWED_ORIGINS = [
     "http://127.0.0.1:8000",
     "http://localhost:3000",
     "http://127.0.0.1:3000",
+    "https://django-auth-api-22.vercel.app",
+    "https://django-auth-api-22-git-main-ghazanfar-alis-projects-dcaacf05.vercel.app",
+    "https://django-auth-api-22-6z4qjsijy-ghazanfar-alis-projects-dcaacf05.vercel.app",
 ]
-
-

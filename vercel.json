@@ -9,5 +9,13 @@
             "src": "/(.*)",
             "dest": "djangobackend2/wsgi.py"
         }
+    ],
+    
+    "rewrites": [
+     { "source": "/(.*)", "destination": "/api/user/register/" }
     ]
+    
+
+    
+
 }
