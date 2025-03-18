@@ -29,7 +29,8 @@ SECRET_KEY = 'django-insecure-f7t(7@e-4o*=sc1x1%r6-u+c^gpxbm1=)%9fs2&l+(u3o8uf8-
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['.vercel.app', '127.0.0.1']
+ALLOWED_HOSTS = ['.vercel.app', '127.0.0.1', "django-auth-api-22-11b0cjuis-ghazanfar-alis-projects-dcaacf05.vercel.app",
+]
 
 
 # Application definition
@@ -230,4 +231,6 @@ CORS_ALLOWED_ORIGINS = [
     "https://django-auth-api-22.vercel.app",
     "https://django-auth-api-22-git-main-ghazanfar-alis-projects-dcaacf05.vercel.app",
     "https://django-auth-api-22-6z4qjsijy-ghazanfar-alis-projects-dcaacf05.vercel.app",
+    "https://django-auth-api-22-11b0cjuis-ghazanfar-alis-projects-dcaacf05.vercel.app",
+
 ]
