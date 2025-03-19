@@ -19,7 +19,7 @@ SECRET_KEY = 'django-insecure-f7t(7@e-4o*=sc1x1%r6-u+c^gpxbm1=)%9fs2&l+(u3o8uf8-
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['*']
+ALLOWED_HOSTS = ['.vercel.app', '127.0.0.1']
 
 
 # Application definition
@@ -82,11 +82,11 @@ WSGI_APPLICATION = 'djangobackend2.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'auth_db2',  # Your PostgreSQL database name
+        'NAME': 'railway',  # Your PostgreSQL database name
         'USER': 'postgres',  # Your PostgreSQL username
-        'PASSWORD': 'password123',  # Your PostgreSQL password
-        'HOST': 'localhost',  # Change if using a remote database
-        'PORT': '5432',  # Default PostgreSQL port
+        'PASSWORD': 'cBBQOkrtttGrnviICJwTPuABxIXlpmps',  # Your PostgreSQL password
+        'HOST': 'shortline.proxy.rlwy.net',  # Change if using a remote database
+        'PORT': '32383',  # Default PostgreSQL port
     }
 }
 DATABASES['default'] = dj_database_url.config()
@@ -126,7 +126,7 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/5.1/howto/static-files/
 
 STATIC_URL = 'static/'
-STATIC_ROOT = BASE_DIR / 'staticfiles_build'/ 'static'
+STATIC_ROOT = [os.path.join(BASE_DIR, 'static')]
 
 # Default primary key field type
 # https://docs.djangoproject.com/en/5.1/ref/settings/#default-auto-field
