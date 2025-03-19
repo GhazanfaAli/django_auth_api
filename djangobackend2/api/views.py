@@ -12,6 +12,12 @@ from django.contrib.auth import authenticate, login, logout
 from django.contrib.auth.forms import UserCreationForm, AuthenticationForm
 import requests
 
+
+def index(request):
+    return render(request, 'index.html',context={
+        'title':'Home'
+    })
+
 # Generate token manually
 def get_tokens_for_user(user):
     refresh = RefreshToken.for_user(user)
